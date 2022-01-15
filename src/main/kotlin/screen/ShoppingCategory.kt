@@ -32,6 +32,9 @@ class ShoppingCategory {
         } else {
             // TODO 2. 카테고리 상품 목록 보여주기
             if(categories.contains(selectedCategory)) {
+                val shoppingProductList = ShoppingProductList()
+                // 사용자가 입력한 카테고리 보여주기
+                shoppingProductList.showProduct(selectedCategory)
                 // 존재하면 true  , 존재하지 않으면 false
             } else {
                 showErrormassage(selectedCategory)
