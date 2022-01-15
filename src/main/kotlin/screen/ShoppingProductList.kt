@@ -45,4 +45,6 @@ class ShoppingProductList {
         println("[$selectCategory] 카테고리 상품이 등록되기 전입니다.")
     }
 
+
+
 }
